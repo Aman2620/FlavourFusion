@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.whatson-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+  }
+.whatson-title{
+    display: block;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.whatson-title h1{
+    color: white;
+    font-size: 60px;
+  }
+  .whatson-main-content-right {
+    clear: both;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    /* align-items: center; */
+  }
+  
+  .whatson-main-content-right img {
+    width: 650px;
+    height: auto;
+    float: left;
+    margin-left: 8%;
+    margin-top: 3%;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  .main-content-content{
+    text-align: justify;
+    width: 450px;
+  }
+
+  .happy-hour{
+    color: white;
+    margin-left: 15%;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-top: 30%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .cocktails{
+    color: white;
+    margin-top: 5%;
+    margin-left: 15%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .days{
+    color: white;
+    margin-top: 30px;
+    margin-left: 15%;
+
+  }
+  .timing{
+    color: white;
+    margin-top: 10px;
+    margin-left: 15%;
+  }
+  .whatson-main-content-left{
+    clear: both;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    /* align-items: center; */
+
+  }
+  .whatson-main-content-left img {
+    width: 650px;
+    height: auto;
+    margin-top: 1%;
+    padding: 20px;
+    margin-left: 20%;
+    margin-bottom: 50px;
+  }
+  .whatson-main-content-left p{
+    color: white;
+  }
+  .program{
+    margin-top: 110px;
+    margin-left: 200px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .btn-book-table-left{
+    display: block;
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+    width: 25%;
+    margin-left: 220px;
+    margin-right: auto;
+    cursor: pointer;
+}
+.btn-book-table-left:hover{
+    background-color: white;
+    color: black;
+}

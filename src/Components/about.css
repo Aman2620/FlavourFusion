@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-container {
+    height: 350px;
+    width: auto;
+    background-color: black;
+    display: flex;
+  }
+
+  .main-about{
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .main-about h1{
+    color: white;
+    font-size: 60px;
+  }
+  .main-about p{
+    color: white;
+    font-size: 25px;
+    margin-top: 10%;
+  }
+  .description-about{
+    margin-left: 20%;
+    margin-top: 6%;
+    width: 45%;
+  }
+  .description-about p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+  }
+.about-horizontal{
+    background-color: #5c5d5e;
+    width: 85%;
+    height: 0.5px;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+}
